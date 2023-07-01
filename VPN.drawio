@@ -1,9 +1,136 @@
-<mxfile host="app.diagrams.net" modified="2023-07-01T09:00:47.826Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" version="21.3.8" etag="66HZ5MV038kKi-FnaGf3" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-01T09:28:42.678Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="nEut0AdPcll-PRBqykl5" version="21.3.8" type="github">
   <diagram name="Page-1" id="ahk14qOgWb5BnK4jDoPu">
-    <mxGraphModel>
+    <mxGraphModel dx="1781" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="t2J68xa6cFNO4QLSiprF-39" value="" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="409" y="388" width="451" height="252" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-1" value="My PC" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.workstation_pc;" vertex="1" parent="1">
+          <mxGeometry x="90" y="210" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-2" value="VPN Server" style="points=[[0.02,0.015,0],[0.5,0,0],[0.98,0.015,0],[1,0.38,0],[0.895,0.98,0],[0.5,1,0],[0.105,0.98,0],[0,0.38,0]];verticalLabelPosition=bottom;sketch=0;html=1;verticalAlign=top;aspect=fixed;align=center;pointerEvents=1;shape=mxgraph.cisco19.secure_endpoint_pc;fillColor=#005073;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="520" y="220" width="75" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-3" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+          <mxGeometry x="530" y="450" width="90" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-6" value="Remote Web Server" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.web_page;" vertex="1" parent="1">
+          <mxGeometry x="750" y="40" width="50" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-7" value="tun0&lt;br&gt;10.0.0.2/24" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="1">
+          <mxGeometry x="101.5" y="320" width="57" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-8" value="eth0&lt;br&gt;54.234.32.1" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="1">
+          <mxGeometry x="180" y="242" width="57" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-11" value="tun0&lt;br&gt;10.0.0.4/24" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="1">
+          <mxGeometry x="550" y="520" width="57" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-12" value="tun0&lt;br&gt;10.0.0.5/24" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="1">
+          <mxGeometry x="696.5" y="520" width="57" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-15" value="tun0&lt;br&gt;10.0.0.1/24" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="1">
+          <mxGeometry x="529" y="300" width="57" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-16" value="eth0&lt;br&gt;132.65.12.10" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.devices.nic;" vertex="1" parent="1">
+          <mxGeometry x="529" y="150" width="57" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-17" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="10" y="260" as="sourcePoint" />
+            <mxPoint x="90" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="60" y="260" />
+              <mxPoint x="-10" y="310" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-19" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-7" target="t2J68xa6cFNO4QLSiprF-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="366" as="sourcePoint" />
+            <mxPoint x="270" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="370" />
+              <mxPoint x="260" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-20" value="0) Traffic starts here" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="230" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-21" value="1) Then goes here" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="180" y="358" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-23" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-8" target="t2J68xa6cFNO4QLSiprF-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="270" as="sourcePoint" />
+            <mxPoint x="354" y="200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="341" y="290" />
+              <mxPoint x="391" y="250" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-24" value="2) Traffic goes outside &lt;br&gt;straight to the VPN server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="202" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-25" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-16" target="t2J68xa6cFNO4QLSiprF-15">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="610" y="224" as="sourcePoint" />
+            <mxPoint x="902" y="140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="714" y="247" />
+              <mxPoint x="780" y="300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-26" value="3) Then from WAN to Virtual Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="207" width="220" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-29" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-15" target="t2J68xa6cFNO4QLSiprF-16">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="280" as="sourcePoint" />
+            <mxPoint x="410" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="508" y="344" />
+              <mxPoint x="390" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-30" value="4) Again from virtual interface to &lt;br&gt;WAN (if we need another public resource)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="289" y="290" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-31" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-16" target="t2J68xa6cFNO4QLSiprF-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="598" y="75" as="sourcePoint" />
+            <mxPoint x="612" y="-70" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="140" />
+              <mxPoint x="490" y="100" />
+              <mxPoint x="520" y="10" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-32" value="5) From WAN to remote resource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="500" y="8" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-34" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;fillColor=#008a00;strokeColor=#005700;entryX=0.525;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t2J68xa6cFNO4QLSiprF-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="180" as="sourcePoint" />
+            <mxPoint x="770" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="350" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-38" value="5) Or to another Virtual Network machines" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="640" y="358" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="t2J68xa6cFNO4QLSiprF-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
+          <mxGeometry x="680" y="450" width="90" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
