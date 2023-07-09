@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-07-01T09:28:42.678Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="nEut0AdPcll-PRBqykl5" version="21.3.8" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-09T17:42:13.400Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="KnUl4gZtVGUSm03x3bsI" version="21.3.8" type="github">
   <diagram name="Page-1" id="ahk14qOgWb5BnK4jDoPu">
     <mxGraphModel dx="1781" dy="647" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -57,11 +57,11 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2J68xa6cFNO4QLSiprF-20" value="0) Traffic starts here" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-40" y="230" width="130" height="30" as="geometry" />
+        <mxCell id="t2J68xa6cFNO4QLSiprF-20" value="0) Трафик начинается здесь" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-110" y="220" width="190" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="t2J68xa6cFNO4QLSiprF-21" value="1) Then goes here" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="180" y="358" width="120" height="30" as="geometry" />
+        <mxCell id="t2J68xa6cFNO4QLSiprF-21" value="1) Затем попадает на&lt;br&gt;виртуальный интерфейс" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="160" y="353" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t2J68xa6cFNO4QLSiprF-23" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-8" target="t2J68xa6cFNO4QLSiprF-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -73,8 +73,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2J68xa6cFNO4QLSiprF-24" value="2) Traffic goes outside &lt;br&gt;straight to the VPN server" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="202" width="160" height="40" as="geometry" />
+        <mxCell id="t2J68xa6cFNO4QLSiprF-24" value="2) С виртуального интерфейса&lt;br&gt;через внешний уходит в интернет&lt;br&gt;к удаленному VPN серверу" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="240" y="192" width="220" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t2J68xa6cFNO4QLSiprF-25" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-16" target="t2J68xa6cFNO4QLSiprF-15">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -86,8 +86,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2J68xa6cFNO4QLSiprF-26" value="3) Then from WAN to Virtual Interface" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="640" y="207" width="220" height="30" as="geometry" />
+        <mxCell id="t2J68xa6cFNO4QLSiprF-26" value="3) С внешнего интерфейса сервера &lt;br&gt;трафикпопадает на виртуальный &lt;br&gt;(то есть происходит обратный процесс)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="192" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="t2J68xa6cFNO4QLSiprF-29" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-15" target="t2J68xa6cFNO4QLSiprF-16">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -99,8 +99,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2J68xa6cFNO4QLSiprF-30" value="4) Again from virtual interface to &lt;br&gt;WAN (if we need another public resource)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="289" y="290" width="250" height="40" as="geometry" />
+        <mxCell id="t2J68xa6cFNO4QLSiprF-30" value="4) С виртуального интерфейса уже чистый&lt;br&gt;(не инкапсулированный) трафик&amp;nbsp;&lt;br&gt;уходит во внешнюю сеть через внешний&lt;br&gt;интерфейс" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="270" y="300" width="270" height="70" as="geometry" />
         </mxCell>
         <mxCell id="t2J68xa6cFNO4QLSiprF-31" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1" source="t2J68xa6cFNO4QLSiprF-16" target="t2J68xa6cFNO4QLSiprF-6">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -113,8 +113,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2J68xa6cFNO4QLSiprF-32" value="5) From WAN to remote resource" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="500" y="8" width="200" height="30" as="geometry" />
+        <mxCell id="t2J68xa6cFNO4QLSiprF-32" value="5) Чистый трафик попадает к запрашиваемому ресурсу" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="430" y="8" width="340" height="30" as="geometry" />
         </mxCell>
         <mxCell id="t2J68xa6cFNO4QLSiprF-34" value="" style="endArrow=classic;html=1;dashed=1;dashPattern=8 8;fillColor=#008a00;strokeColor=#005700;entryX=0.525;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="t2J68xa6cFNO4QLSiprF-39">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -125,8 +125,8 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="t2J68xa6cFNO4QLSiprF-38" value="5) Or to another Virtual Network machines" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="640" y="358" width="250" height="30" as="geometry" />
+        <mxCell id="t2J68xa6cFNO4QLSiprF-38" value="5) Или инкапсулированный трафик попадает &lt;br&gt;в виртуальную сеть на другие устройства" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="625" y="353" width="280" height="40" as="geometry" />
         </mxCell>
         <mxCell id="t2J68xa6cFNO4QLSiprF-5" value="" style="fontColor=#0066CC;verticalAlign=top;verticalLabelPosition=bottom;labelPosition=center;align=center;html=1;outlineConnect=0;fillColor=#CCCCCC;strokeColor=#6881B3;gradientColor=none;gradientDirection=north;strokeWidth=2;shape=mxgraph.networks.virtual_pc;" vertex="1" parent="1">
           <mxGeometry x="680" y="450" width="90" height="60" as="geometry" />
