@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-10-15T20:41:59.594Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="ZRHvydy-yc8P9_Ue6xHc" version="22.0.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-10-15T21:07:04.305Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/16.6 Safari/605.1.15" etag="CteJMQOc4ClcRyifL1Ou" version="22.0.4" type="github">
   <diagram name="Страница — 1" id="6sVp4euf08QDdtB_jIx9">
     <mxGraphModel dx="1242" dy="827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -10,6 +10,18 @@
         <mxCell id="e4xUBd5HYytmeU2gqAja-19" value="&lt;font face=&quot;Comic Sans MS&quot;&gt;Creates Waker type&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="e4xUBd5HYytmeU2gqAja-18">
           <mxGeometry x="0.0986" y="3" relative="1" as="geometry">
             <mxPoint x="-43" y="-93" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4xUBd5HYytmeU2gqAja-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="e4xUBd5HYytmeU2gqAja-1" target="e4xUBd5HYytmeU2gqAja-47">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e4xUBd5HYytmeU2gqAja-62" value="calls poll() when get a signal from some driver" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Comic Sans MS;rotation=-90;" vertex="1" connectable="0" parent="e4xUBd5HYytmeU2gqAja-60">
+          <mxGeometry x="0.1231" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="e4xUBd5HYytmeU2gqAja-1" value="&lt;p&gt;&lt;font style=&quot;font-size: 32px;&quot; face=&quot;Courier New&quot;&gt;Executor&lt;/font&gt;&lt;/p&gt;" style="shape=image;html=1;verticalAlign=bottom;verticalLabelPosition=top;labelBackgroundColor=none;imageAspect=0;aspect=fixed;image=https://cdn1.iconfinder.com/data/icons/KDE_Crystal_Diamond_2.5_Classical_Mod/128x128/filesystems/exec.png;labelPosition=center;align=center;" vertex="1" parent="1">
