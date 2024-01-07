@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-16T23:11:57.568Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="D-AYPr6BxEFMoJkJiu_V" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-07T12:53:05.567Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.6.1 Safari/605.1.15" etag="PtF9aW95zp0PLk3T0tXv" version="22.1.11" type="github">
   <diagram name="Page-1" id="eKjKgYixJi5TDtqVLOn3">
     <mxGraphModel dx="1949" dy="761" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -31,8 +31,8 @@
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-19" value="include" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="oLRO9ITSkGWr4g-rrFDi-11" target="oLRO9ITSkGWr4g-rrFDi-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="oLRO9ITSkGWr4g-rrFDi-20" value="Piece (torrent.rs)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;shadow=1;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry y="210" width="140" height="78" as="geometry" />
+        <mxCell id="oLRO9ITSkGWr4g-rrFDi-20" value="Piece (piece.rs)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#d5e8d4;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;shadow=1;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry y="192" width="140" height="78" as="geometry" />
         </mxCell>
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-21" value="hash: Vec&amp;lt;u8&amp;gt;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-20">
           <mxGeometry y="26" width="140" height="26" as="geometry" />
@@ -41,19 +41,13 @@
           <mxGeometry y="52" width="140" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-23" value="Torrent (torrent.rs)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;shadow=1;" vertex="1" parent="1">
-          <mxGeometry x="10" y="60" width="290" height="130" as="geometry" />
+          <mxGeometry x="10" y="60" width="290" height="78" as="geometry" />
         </mxCell>
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-24" value="meta: Dict" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-23">
           <mxGeometry y="26" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-25" value="info_hash: Vec&amp;lt;u8&amp;gt; (20 byte SHA1 of Info Dict)&amp;nbsp;" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-23">
           <mxGeometry y="52" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="oLRO9ITSkGWr4g-rrFDi-72" value="fn send_request() -&amp;gt; TrackerResponse" style="text;strokeColor=#d79b00;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-23">
-          <mxGeometry y="78" width="290" height="26" as="geometry" />
-        </mxCell>
-        <mxCell id="oLRO9ITSkGWr4g-rrFDi-74" value="pieces: Vec&amp;lt;Piece&amp;gt;" style="text;strokeColor=#82b366;fillColor=default;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-23">
-          <mxGeometry y="104" width="290" height="26" as="geometry" />
         </mxCell>
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;sketch=1;curveFitting=1;jiggle=2;" edge="1" parent="1" source="oLRO9ITSkGWr4g-rrFDi-24" target="oLRO9ITSkGWr4g-rrFDi-9">
           <mxGeometry relative="1" as="geometry" />
@@ -71,7 +65,7 @@
             <mxPoint x="29" y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oLRO9ITSkGWr4g-rrFDi-28" value="Tracker Request (main.rs)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="oLRO9ITSkGWr4g-rrFDi-28" value="Tracker Request (tracker.rs)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=#ffe6cc;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="20" y="310" width="290" height="208" as="geometry" />
         </mxCell>
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-29" value="info_hash: String (URL encoded value)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;labelBorderColor=none;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-28">
@@ -119,7 +113,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="oLRO9ITSkGWr4g-rrFDi-45" value="Tracker Response (main.rs)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;shadow=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="oLRO9ITSkGWr4g-rrFDi-45" value="Tracker Response (tracker.rs)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;shadow=1;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="10" y="590" width="290" height="78" as="geometry" />
         </mxCell>
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-48" value="interval: i32" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-45">
@@ -188,7 +182,7 @@
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-84" value="fn piece_request () -&amp;gt; Vec&amp;lt;u8&amp;gt; &amp;nbsp;(For each piece from list)" style="text;strokeColor=#b85450;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-61">
           <mxGeometry y="208" width="290" height="42" as="geometry" />
         </mxCell>
-        <mxCell id="oLRO9ITSkGWr4g-rrFDi-76" value="Peer Message (peer.rs" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+        <mxCell id="oLRO9ITSkGWr4g-rrFDi-76" value="Peer Message (peer.rs)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;sketch=1;curveFitting=1;jiggle=2;rounded=1;shadow=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="-730" y="197" width="290" height="104" as="geometry" />
         </mxCell>
         <mxCell id="oLRO9ITSkGWr4g-rrFDi-77" value="prefix: i32 (4 byte)" style="text;strokeColor=default;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="oLRO9ITSkGWr4g-rrFDi-76">
